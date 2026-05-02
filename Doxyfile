@@ -1,0 +1,44 @@
+# --- Project Metadata ---
+PROJECT_NAME           = "libarith"
+PROJECT_NUMBER         = "0.1.0"
+PROJECT_BRIEF          = "A minimalist C++ library for arbitrary-precision arithmetic."
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRECTORIES  = NO
+
+# --- Input Configuration ---
+INPUT                  = include/ src/ README.md
+RECURSIVE              = YES
+FILE_PATTERNS          = *.hpp *.cpp *.md
+USE_MDFILE_AS_MAINPAGE = README.md
+
+# --- Output Language & Format ---
+OUTPUT_LANGUAGE        = English
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+# --- C++ Specific Tuning ---
+OPTIMIZE_OUTPUT_FOR_C  = NO
+MARKDOWN_SUPPORT       = YES
+AUTOLINK_SUPPORT       = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+
+# --- Visual Diagrams (Requires Graphviz) ---
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 4
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DIRECTORY_GRAPH        = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+
+# --- Look and Feel ---
+HTML_EXTRA_STYLESHEET  = 
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+FULL_PATH_NAMES        = NO

@@ -54,4 +54,4 @@
 
 
 
-Since you are aiming for a professional library, are you planning to write unit tests for each operator as you build them?
+Since you are aiming for a professional library, are you planning to write unit tests for each operator as you build them? - yes

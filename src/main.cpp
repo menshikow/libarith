@@ -5,6 +5,6 @@ class Huy {
 };
 
 int main() {
-  std::println("huy");
+  std::println("hello world");
   return 0;
 }
